@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.buttonhalter{
+  margin: 150px 40%;
+  display: inline-block;
+}
+
+.buttonhalter:hover .button{
+ transform: translateY(-70px);
+}
+
+.button{
+  margin-left: -140px;
+  margin-top: -150px;
+  width: 540px;
+  height: 540px;
+  background: url(Pictures/crate_deckel.png);
+  background-size: contain;
+  transition: all ease-in-out 0.3s;
+}
+
+.button:hover{
+  
+}
+
+.button:hover p{
+  color: #DDD;
+}
+
+.button > p{
+  color: white;
+  font-size: 50px;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 100px;
+}
+#bg{
+    height: 720px;
+    width: 1280px;
+    background: url(Pictures/crate.png);
+}

@@ -1,0 +1,10 @@
+#banner{
+    height: 210px;
+    width: 100%;
+    border-radius: 10px;
+    background: url(banner.jpg);
+    background-size: cover; 
+}
+body{
+    background: url(background.jpg);
+}

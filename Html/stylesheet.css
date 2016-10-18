@@ -1,0 +1,276 @@
+@font-face{
+    font-family: 'BigNoodleTitling' ;
+    src: url(Font/big_noodle_titling_oblique.ttf), format('truetype'); 
+}
+body{
+    font-family: BigNoodleTitling;
+}
+.buttonhalter{
+  margin: 150px 40%;
+  display: inline-block;
+}
+
+.buttonhalter:hover .button{
+ transform: translateY(-70px);
+}
+
+.button{
+  margin-left: -100px;
+  margin-top: -150px;
+  width: 270px;
+  height: 270px;
+  background: url(Pictures/crate_deckel.png);
+  background-size: contain;
+  transition: all ease-in-out 0.3s;
+}
+
+.button:hover{
+  
+}
+
+.button:hover p{
+  color: #DDD;
+}
+
+.button > p{
+  color: white;
+  font-size: 50px;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 100px;
+}
+#bg{
+    margin: auto;
+    margin-top: 70px;
+    height: 360px;
+    width: 640px;
+    background: url(Pictures/crate.png);
+    background-size: contain;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+    padding-left: 30px;
+   /* border: solid red; */
+}
+a:hover{
+    color: #00FFFF;
+  /*  border: solid red; */
+}    
+nav {
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    color: #ED4528;
+    text-align: center;
+}
+div{
+    color: rgba( 0, 0, 0, 0 );
+    font-size: 1.15em;
+}
+.h:hover{
+    color: rgba( 0, 0, 0, 1 );
+}
+#banner{
+    height: 210px;
+    width: 100%;
+                          
+    background: url(Pictures/banner.jpg) ;
+    background-size: cover; 
+}
+#titel{
+    margin: 40px;
+    float: left;
+                
+    height: 130px;
+    width: 600px;
+    background: url(Pictures/game-logo-overwatch.png);
+    background-size: cover;
+}
+#logo{
+    margin: 10px;
+    float: right;
+    
+    height: 50px;
+    width: 50px;
+    background: url(Pictures/logo.png) ;
+    background-size: cover ;
+}
+#all_heros{
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    height: 500px;
+    border: solid black 1px;
+    
+    background: url(Pictures/Overwatch_Heroes.jpg);
+    background-size: cover ;  
+    
+}
+#genji{
+    height: 240px;
+    width: 75px;
+    background-color: ;
+    margin-top: 207px;
+    margin-left: 50px;
+    border: ;
+} 
+#mccree{
+    height: 260px ;
+    width: 90px ;
+    background: ;
+    margin-top: -260px; 
+    margin-left: 1060px ; 
+    border: ;
+}
+#pharah{
+    height: 70px ;
+    width: 110px ;
+    background: ;
+    margin-top: -370px ;
+    margin-left: 320px ;
+    border: ;
+}
+#reaper{
+    height: 65px ;
+    width: 80px ;
+    background: ;
+    margin-top: 25px ;
+    margin-left: 535px  ;
+    border: ; 
+}
+#soldier_76{
+    height: 250px ;
+    width: 70px ;
+    background: ;
+    margin-top: -50px ;
+    margin-left: 890px ;
+    border: ;
+    font-size: 1.1em;
+}
+#tracer{
+    height: 225px ;
+    width: 50px ;
+    background: ;
+    margin-top: -230px ;
+    margin-left: 385px ;
+    border: ;
+}
+#bastion{
+    height: 87px ;
+    width: 120px ;
+    background: ;
+    margin-top: -330px ;
+    margin-left: 975px ;
+    border: ;  
+}
+#mei{
+    height: 220px  ;
+    width: 60px ;
+    background: ;
+    margin-top: 30px ;
+    margin-left: 240px ;
+    border: ;
+}
+#torbjorn{
+    height: 150px ;
+    width: 125px ;
+    background: ;
+    margin-top: -160px ;
+    margin-left: 440px ;
+    border: ;
+}
+#widowmaker{
+    height: 100px ;
+    width: 60px ;
+    background: ;
+    margin-top: -260px ;
+    margin-left: 450px ;
+    border: ;
+}
+#d_va{
+    height: 100px ;
+    width: 85px ;
+    background: ;
+    margin-top: -245px ;
+    margin-left: 455px ;
+    border: ;
+}
+#reinhardt{
+    height: 105px ;
+    width: 220px ;
+    background: ;
+    margin-top: -70px ;
+    margin-left: 730px ;
+    border: ;
+}
+#winston{
+    height: 260px ;
+    width: 100px ;
+    background: ;
+    margin-top: 40px ;
+    margin-left: 720px ;
+    border: ;
+}
+#zarya{
+    height: 270px ;
+    width: 75px ;
+    background: ;
+    margin-top: -288px ;
+    margin-left: 305px ;
+    border: ;
+}
+#mercy{
+    height: 90px ;
+    width: 80px ;
+    background: ;
+    margin-top: -340px ;
+    margin-left: 620px ;
+    border: ;
+}
+#symmetra{
+    height: 250px ;
+    width: 60px ;
+    background: ;
+    margin-top: ;
+    margin-left: 825px ;
+    border: ;
+}
+#zenyatta{
+    height: 150px ;
+    width: 65px ;
+    background: ;
+    margin-top: -230px ;
+    margin-left: 572px ;
+    border: ;
+}
+#junkret{
+    height: 170px ;
+    width: 105px ;
+    margin-top: -150px ;
+    margin-left: 130px ;
+    border: ;
+} 
+#lucio{
+    height: 230px ;
+    width: 90px ;
+    margin-top: -160px ;
+    margin-left: 965px ;
+    border: ;
+}
+#hanzo{
+    height: 230px ;
+    width: 73px ;
+    margin-top: -280px ;
+    margin-left: 643px ;
+    border: ;
+}
+#roadhag{
+    height: 100px ;
+    width: 180px ;
+    margin-top: -330px ;
+    margin-left: 120px ;
+    border: ;
+}
